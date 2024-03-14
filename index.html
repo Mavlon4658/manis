@@ -77,12 +77,66 @@
         </header>
         <!-- Header end -->
 
+        <!-- Mobile menu -->
+        <div class="mobile_menu">
+            <button class="mobile_menu__close">
+                <span>&times;</span>
+            </button>
+
+            <ul class="d-flex flex-column mobile_menu__navs">
+                <li>
+                    <a href="#">Главная</a>
+                </li>
+                <li>
+                    <a href="#">Портфолио</a>
+                </li>
+                <li>
+                    <a href="#">Цены</a>
+                </li>
+                <li class="line"></li>
+                <li>
+                    <a href="#">Контакты</a>
+                </li>
+                <li>
+                    <a href="#">Рекламные вывески</a>
+                </li>
+                <li>
+                    <a href="#">Объёмные буквы</a>
+                </li>
+                <li>
+                    <a href="#">Световые короба</a>
+                </li>
+                <li>
+                    <a href="#">Световые вывески</a>
+                </li>
+                <li>
+                    <a href="#">Панель-кронштейны</a>
+                </li>
+                <li>
+                    <a href="#">Аптечные кресты</a>
+                </li>
+                <li>
+                    <a href="#">Крышные конструкции</a>
+                </li>
+                <li>
+                    <a href="#">Рекламные пилоны</a>
+                </li>
+                <li>
+                    <a href="#">Рекламные стелы</a>
+                </li>
+                <li>
+                    <a href="#">Козырьки и входные группы</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Mobile menu end -->
+
         <!-- Nav -->
         <nav class="d-block nav">
             <div class="d-flex align-items-center justify-content-between main_container">
                 <ul class="d-flex align-items-center nav__links">
                     <li class="d-lg-none">
-                        <button>
+                        <button class="mobile_menu__open">
                             <img src="./images/bars.svg" alt="">
                         </button>
                     </li>
@@ -123,7 +177,7 @@
 
         <div class="main_container d-flex align-items-start main_block">
 
-            <div class="main_block__left">
+            <div class="d-none d-lg-block main_block__left">
                 <div class="title">Наше производство</div>
 
                 <!-- Our production -->
@@ -487,7 +541,7 @@
                         <p class="main_description">Благодаря высокому профессионализму наших специалистов мы справляемся с задачами любого уровня сложности. Наш приоритет - следовать всем пожеланиям заказчика (дизайнера), чтобы его идеи были максимально отражены в качественных, долговечных и надежных объемных буквах для наружной рекламы.</p>
                         <p class="main_description">Мы можем реализовать разные варианты крепления объемных световых букв для настенного монтажа снаружи и внутри помещений. Востребованный вариант - объемные буквы для напольной установки. Их часто используют для маркетинговых компаний, стилизации интерьеров, других дизайнерских задач.</p>
                     </div>
-                    <div class="d-flex justify-content-between main_alert">
+                    <div class="d-flex flex-column flex-sm-row align-items-start justify-content-between main_alert">
                         <span>Наши специалисты помогут подобрать оптимальное решение для Вашего бизнеса.</span>
                         <button class="btn_danger">Получить консультацию</button>
                     </div>
@@ -517,10 +571,262 @@
                     </ul>
                 </div>
                 <!-- Work example  end-->
+
+                <!-- Work price -->
+                <div class="work_price">
+                    <h2 class="main_title">Цена изготовления объемных букв</h2>
+                    <div class="table-responsive work_price__table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td class="text-center">Наименование</td>
+                                    <td>Единица <br> измерения</td>
+                                    <td>Цена</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="3" class="title">Буквы</td>
+                                </tr>
+                                <tr>
+                                    <td>Объёмные буквы (линзованные диоды)</td>
+                                    <td>см.высоты</td>
+                                    <td>85 рублей</td>
+                                </tr>
+                                <tr>
+                                    <td>Объёмные световые буквы (диодная лента)</td>
+                                    <td>см.высоты</td>
+                                    <td>69 рублей</td>
+                                </tr>
+                                <tr>
+                                    <td>Объёмные световые буквы с двойной подсветкой (лицевая и контражурная)</td>
+                                    <td>см.высоты</td>
+                                    <td>120 рублей</td>
+                                </tr>
+                                <tr>
+                                    <td>Объёмные световые буквы (стандарт, лента)</td>
+                                    <td>см.высоты</td>
+                                    <td>69 рублей</td>
+                                </tr>
+                                <tr>
+                                    <td>Металлические буквы с подсветкой</td>
+                                    <td>см.высоты</td>
+                                    <td>165 рублей</td>
+                                </tr>
+                                <tr>
+                                    <td>Плоские буквы</td>
+                                    <td>см.высоты</td>
+                                    <td>45 рублей</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" class="title">Монтаж</td>
+                                </tr>
+                                <tr>
+                                    <td>Объёмных букв или светового короба до 3 кв.м изделия до 4 метров высоты.</td>
+                                    <td>штука</td>
+                                    <td>от 4900 рублей</td>
+                                </tr>
+                                <tr>
+                                    <td>Объёмных букв или светового короба более 3 кв.м изделия более 4 метров высоты.</td>
+                                    <td>штука</td>
+                                    <td>от 6500 рублей</td>
+                                </tr>
+                                <tr>
+                                    <td>Баннера</td>
+                                    <td>штука</td>
+                                    <td>от 900 рублей</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" class="title">Дизайн</td>
+                                </tr>
+                                <tr>
+                                    <td>Вывески с привязкой к фото (буквы, короба)</td>
+                                    <td>штука</td>
+                                    <td>от 900 рублей</td>
+                                </tr>
+                                <tr>
+                                    <td>Баннера/Таблички</td>
+                                    <td>штука</td>
+                                    <td>от 500 рублей</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" class="title">Доставка</td>
+                                </tr>
+                                <tr>
+                                    <td>по Москве</td>
+                                    <td>выезд</td>
+                                    <td>от 500 рублей</td>
+                                </tr>
+                                <tr>
+                                    <td>по Московской области</td>
+                                    <td>выезд</td>
+                                    <td>от 850 рублей</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="main_description">Цена изготовления объемных букв зависит от нескольких факторов:</p>
+                    <ul class="work_price__descriptions">
+                        <li class="main_description">Размеры. Чем больше изделие, тем выше затраты материалов. По достижении определенных габаритов производство усложняется ввиду необходимости повысить прочностные характеристики конструкции.</li>
+                        <li class="main_description">Материалы. У нас широкий диапазон стоимости. Но в любом случае изделие имеет достойный внешний вид. Определенные материалы помогают повысить эстетические характеристики готовой конструкции.</li>
+                        <li class="main_description">Технологии. Количество светодиодов, дополнительных модулей, специальных панелей для динамического отображения изображений оказывают влияние на стоимость. Поэтому всегда можно найти объемные буквы с подсветкой по цене, соответствующей имеющемуся бюджету и удовлетворяющей требования заказчика.</li>
+                        <li class="main_description">Сложность. Простые, с засечками или художественные шрифты имеют разную стоимость. Чем сложнее проект, тем выше его стоимость. Мы разработаем для вас индивидуальный дизайн или выполним работу по презентованному чертежу. Наши специалисты помогут найти оптимальное решение.</li>
+                    </ul>
+                    <p class="main_description">Мы предоставляем услуги профессионального монтажа и обслуживания. Выбрав их в комплексе с производством изделия, вы получите дополнительную экономию и уверенность в качественной реализации поставленной задачи.</p>
+                </div>
+                <!-- Work price end -->
+
+                <!-- Make order -->
+                <div class="make_order">
+                    <div class="main_title">Как сделать заказ?</div>
+                    <div class="d-flex flex-column make_order__datas">
+                        <p class="main_description">У нас можно купить объемные буквы любой сложности, созданные по разным технологиям. Стоимость работ одна из самых доступных в городе. Это обусловлено продуманным подходом и сотрудничеством с поставщиками, производителями материалов с минимальным количеством посредников.</p>
+                        <div>
+                            <p class="main_description">Чтобы узнать подробности, свяжитесь с нами удобным способом:</p>
+                            <ul>
+                                <li class="main_description">звоните по телефонам: +7 (495) 142-07-05;</li>
+                                <li class="main_description">пишите на почту: info@manis-reklama.ru.</li>
+                            </ul>
+                        </div>
+                        <p class="main_description">Посетите наш офис, расположенный по адресу: МО, г. Балашиха, мкр. Южное Кучино, ул. Почтовая, д. 9Б. Менеджер выслушает все ваши пожелания, ознакомит с примерами готовых работ.</p>
+                        <p class="main_description">Вы получите возможность оценить качество и выбрать оптимальное решение для своего бизнеса. Мы ориентированы на предоставление обслуживания, которое превышает ожидания. Наши клиенты оценили преимущества выгодных условий доставки, монтажа, обслуживания.</p>
+                        <p class="main_description">Вам нужны эффективные решения в сфере наружной рекламы для продвижения бизнеса? Воспользуйтесь нашими услугами.</p>
+                        <div class="make_order__description">Полную версию Прайс-листа можно скачать по <a href="#">этой ссылке</a>.</div>
+                    </div>
+                </div>
+                <!-- Make order end -->
             </div>
 
         </div>
 
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="main_container">
+                <div class="d-flex align-items-center justify-content-between footer__top">
+                    <ul class="d-flex flex-wrap justify-content-center align-items-center footer__top_navs">
+                        <li>
+                            <a href="#">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#">Компания</a>
+                        </li>
+                        <li>
+                            <a href="#">Производство</a>
+                        </li>
+                        <li>
+                            <a href="#">Портфолио</a>
+                        </li>
+                        <li>
+                            <a href="#">Цены</a>
+                        </li>
+                        <li>
+                            <a href="#">Наши клиенты</a>
+                        </li>
+                        <li>
+                            <a href="#">Новости</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                    <ul class="d-none d-lg-flex align-items-center footer__top_networks">
+                        <li>
+                            <a href="#">
+                                <img src="./images/footer__networks_1.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/footer__networks_2.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/footer__networks_3.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start justify-content-center justify-content-lg-between footer__bottom">
+                    <a href="/" class="footer__bottom_logo">
+                        <img src="./images/footer-logo.png" alt="">
+                    </a>
+                    <div class="footer__bottom_address">
+                        <span>МО, г. Балашиха, мкр. Южное Кучино, ул. Почтовая, д. 9Б</span>
+                        <a href="#">+7 (495) 142-07-05</a>, <a href="#">+7 (999) 914-46-43</a>
+                    </div>
+                    <div class="d-none d-lg-block footer__bottom_produce">
+                        <span>Мы производим</span>
+                        <ul>
+                            <li>вывески любого уровня сложности;</li>
+                            <li>световые короба;</li>
+                            <li>панель-кронштейны;</li>
+                            <li>комбинированные рекламные конструкции;</li>
+                            <li>крышные рекламные конструкции пилоны, стелы.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+
+    </div>
+
+    <div class="call_modal active">
+        <div class="call_modal__bg"></div>
+        <div class="call_modal__content">
+            <button class="call_modal__close">
+                <span>&times;</span>
+            </button>
+
+            <form class="call_modal__form">
+                <h2 class="call_modal__form_title">Хотите, перезвоним Вам точно в:</h2>
+                <div class="d-flex align-items-center flex-wrap justify-content-center justify-content-sm-start call_modal__form_select__wrap">
+                    <div class="call_modal__form_select">
+                        <svg class="callme-select-arrows" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="14px" viewBox="0 0 10 14" enable-background="new 0 0 10 14" xml:space="preserve">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99,8.905L4.995,13.9L0,8.905"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0,4.995L4.995,0L9.99,4.995"></path>
+                        </svg>
+                        <select>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    <div class="call_modal__form_select">
+                        <svg class="callme-select-arrows" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="14px" viewBox="0 0 10 14" enable-background="new 0 0 10 14" xml:space="preserve">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99,8.905L4.995,13.9L0,8.905"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0,4.995L4.995,0L9.99,4.995"></path>
+                        </svg>
+                        <select>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    <div class="call_modal__form_select">
+                        <svg class="callme-select-arrows" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="14px" viewBox="0 0 10 14" enable-background="new 0 0 10 14" xml:space="preserve">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99,8.905L4.995,13.9L0,8.905"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0,4.995L4.995,0L9.99,4.995"></path>
+                        </svg>
+                        <select>
+                            <option value="14-03-2024">Сегодня</option>
+                            <option value="15-03-2024">Пятница</option>
+                            <option value="18-03-2024">Понедельник</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start call_modal__form_bottom">
+                    <div class="d-flex flex-column input_wrap">
+                        <input type="tel" placeholder="Телефон">
+                    </div>
+                    <button type="submit">Жду звонка</button>
+                </div>
+                <p>Например: +7 (495) 123-45-67</p>
+            </form>
+        </div>
     </div>
     
     <!-- Bootstrap JS file -->

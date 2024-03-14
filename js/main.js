@@ -1,10 +1,11 @@
-const items = document.querySelectorAll('.item');
+let menu_open = document.querySelector('.mobile_menu__open')
+let menu_close = document.querySelector('.mobile_menu__close')
+let mobile_menu = document.querySelector('.mobile_menu');
 
-items.forEach((item) => {
-    const header = item.querySelector('.header');
-    const content = item.querySelector('.content');
+menu_open.onclick = () => {
+    mobile_menu.classList.toggle('active')
+}
 
-    header.addEventListener('click', () => {
-        content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + 'px';
-    });
-});
+menu_close.onclick = () => {
+    mobile_menu.classList.toggle('active')
+}
