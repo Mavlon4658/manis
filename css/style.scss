@@ -1034,6 +1034,52 @@ body {
 }
 // Footer end
 
+.call_me {
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    border: 10px solid #EEF0F2;
+    background: #50CBCB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_support {
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    width: 300px;
+    height: 40px;
+    box-shadow: 0 12px 14px 8px rgba(0,0,0,.17);
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 34px !important;
+    text-align: left;
+    padding-left: 17px;
+
+    img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    span {
+        position: relative;
+        color: rgb(240, 241, 241);
+        font-family: "Inter", sans-serif;
+        font-size: 13.13px;
+        line-height: 40px;
+
+        svg {
+            margin-right: 9px;
+        }
+    }
+}
+
 // Call modal
 .call_modal {
     position: fixed;
@@ -1046,7 +1092,23 @@ body {
     justify-content: center;
 
     &.active {
+        display: flex;
+    }
 
+    @keyframes endAnimation {
+        from {
+            display: flex;
+            opacity: 1;
+        }
+        to {
+            display: flex;
+            opacity: 0;
+        }
+    }
+
+    &.end-active {
+        display: none;
+        animation: endAnimation .6s linear 1;
     }
 
     &__bg {
