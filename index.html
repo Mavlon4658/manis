@@ -1,1 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manis</title>
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
 
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="d-flex justify-content-start justify-content-sm-between  main_container">
+                <div class="d-flex align-items-center header__left">
+                    <a href="/" class="position-relative header__logo">
+                        <img src="./images/header_logo.png" alt="">
+                        <span class="d-none d-xl-inline-block position-absolute end-0 text-end">Рекламно-производственная <br>компания</span>
+                    </a>
+                    <div class="d-none d-xl-flex flex-column header__location">
+                        <div class="d-flex align-items-center header__address">
+                            <img src="./images/location.svg" alt="">
+                            <span>МО, г. Балашиха, мкр. Южное Кучино, ул. Почтовая, д. 9Б</span>
+                        </div>
+                        <div class="d-flex align-items-center header__working_time">
+                            <img src="./images/clock.svg" alt="">
+                            <span>Работаем с пн. по пт. с 9.00 до 18.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center header__right">
+                    <div class="d-flex flex-column header__contact">
+                        <div class="d-flex align-items-center header__contact_phone">
+                            <img src="./images/phone.svg" alt="" class="d-none d-sm-block">
+                            <div class="d-flex flex-column">
+                                <a href="#">+7 (495) 142-07-05</a>
+                                <a href="#">+7 (999) 914-46-43</a>
+                            </div>
+                        </div>
+                        <a href="#" class="d-none d-xl-flex align-items-center header__contact_mail">
+                            <img src="./images/mail.svg" alt="">
+                            <span>info@manis-reklama.ru</span>
+                        </a>
+                    </div>
+                    <div class="d-none d-md-flex flex-column align-items-center header__networks">
+                        <button class="btn_danger">Заказать звонок</button>
+                        <ul class="d-none d-xl-flex align-items-center">
+                            <li>
+                                <a href="#">
+                                    <img src="./images/head__facebook.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/head__vk.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/head__instagram.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/head__youtube.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Nav -->
+        <nav class="d-block nav">
+            <div class="d-flex align-items-center justify-content-between main_container">
+                <ul class="d-flex align-items-center nav__links">
+                    <li class="d-lg-none">
+                        <button>
+                            <img src="./images/bars.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="d-none d-sm-block">
+                        <a href="#" class="nav__links_item">Главная</a>
+                    </li>
+                    <li class="d-none d-sm-block">
+                        <a href="#" class="nav__links_item">О компании</a>
+                    </li>
+                    <li class="d-none d-md-block">
+                        <a href="#" class="nav__links_item">Производство</a>
+                    </li>
+                    <li class="d-none d-lg-block">
+                        <a href="#" class="nav__links_item">Портфолио</a>
+                    </li>
+                    <li class="d-none d-lg-block">
+                        <a href="#" class="nav__links_item">Цены</a>
+                    </li>
+                    <li class="d-none d-lg-block">
+                        <a href="#" class="nav__links_item">Клиенты</a>
+                    </li>
+                    <li class="d-none d-lg-block">
+                        <a href="#" class="nav__links_item">Новости</a>
+                    </li>
+                    <li class="d-none d-lg-block">
+                        <a href="#" class="nav__links_item">Контакты</a>
+                    </li>
+                </ul>
+                <div class="position-relative d-flex justify-content-end nav__search">
+                    <input type="text" class="position-absolute top-0 start-0 h-100">
+                    <button class="d-flex align-items-center justify-content-center">
+                        <img src="./images/search.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- Nav end -->
+
+        <div class="main_container d-flex align-items-start main_block">
+
+            <div class="main_block__left">
+                <div class="title">Наше производство</div>
+
+                <!-- Our production -->
+                <ul class="d-flex flex-column our_production">
+                    <li class="our_production__item">
+                        <div class="d-flex align-items-center our_production__item_head">
+                            <img src="./images/production_card_1.svg" alt="">
+                            <span>Вывески и наружная реклама</span>
+                        </div>
+                        <ul class="d-flex flex-column our_production__item_list">
+                            <li>
+                                <a href="#">Рекламные вывески</a>
+                            </li>
+                            <li>
+                                <a href="#">Объёмные буквы</a>
+                            </li>
+                            <li>
+                                <a href="#">Неоновые вывески</a>
+                            </li>
+                            <li>
+                                <a href="#">Световые короба</a>
+                            </li>
+                            <li>
+                                <a href="#">Световые вывески</a>
+                            </li>
+                            <li>
+                                <a href="#">Светодиодные вывески</a>
+                            </li>
+                            <li>
+                                <a href="#">Несветовые буквы</a>
+                            </li>
+                            <li>
+                                <a href="#">Аптечные кресты</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="our_production__item">
+                        <div class="d-flex align-items-center our_production__item_head">
+                            <img src="./images/production_card_2.svg" alt="">
+                            <span>Рекламные конструкции</span>
+                        </div>
+                        <ul class="d-flex flex-column our_production__item_list">
+                            <li>
+                                <a href="#">Рекламные стелы</a>
+                            </li>
+                            <li>
+                                <a href="#">Рекламные пилоны</a>
+                            </li>
+                            <li>
+                                <a href="#">Штендеры</a>
+                            </li>
+                            <li>
+                                <a href="#">Крышные конструкции</a>
+                            </li>
+                            <li>
+                                <a href="#">Козырьки и входные группы</a>
+                            </li>
+                            <li>
+                                <a href="#">Панель-кронштейны</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="our_production__item">
+                        <div class="d-flex align-items-center our_production__item_head">
+                            <img src="./images/production_card_3.svg" alt="">
+                            <span>Интерьерная <br> реклама</span>
+                        </div>
+                        <ul class="d-flex flex-column our_production__item_list">
+                            <li>
+                                <a href="#">Акрилайты</a>
+                            </li>
+                            <li>
+                                <a href="#">Кристалайты</a>
+                            </li>
+                            <li>
+                                <a href="#">Фреймлайты</a>
+                            </li>
+                            <li>
+                                <a href="#">Тонкие световые панели</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="our_production__item">
+                        <div class="d-flex align-items-center our_production__item_head">
+                            <img src="./images/production_card_4.svg" alt="">
+                            <span>Информационные стенды и таблички</span>
+                        </div>
+                        <ul class="d-flex flex-column our_production__item_list">
+                            <li>
+                                <a href="#">Таблички</a>
+                            </li>
+                            <li>
+                                <a href="#">Информационные стенды</a>
+                            </li>
+                            <li>
+                                <a href="#">Визуальная навигация</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="our_production__item">
+                        <div class="d-flex align-items-center our_production__item_head">
+                            <img src="./images/production_card_5.svg" alt="">
+                            <span>Оформление транспортных средств</span>
+                        </div>
+                        <ul class="d-flex flex-column our_production__item_list">
+                            <li>
+                                <a href="#">Брендирование транспорта</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="our_production__item">
+                        <div class="d-flex align-items-center our_production__item_head">
+                            <img src="./images/production_card_6.svg" alt="">
+                            <span>Широкоформатная / интерьерная печать</span>
+                        </div>
+                        <ul class="d-flex flex-column our_production__item_list">
+                            <li>
+                                <a href="#">Широкоформатная печать</a>
+                            </li>
+                            <li>
+                                <a href="#">Интерьерная печать</a>
+                            </li>
+                            <li>
+                                <a href="#">Печать на бэклите</a>
+                            </li>
+                            <li>
+                                <a href="#">Ламинация</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Our production end -->
+
+                <!-- Our services -->
+                <ul class="d-flex flex-column our_services">
+                    <li class="d-flex align-items-center our_services__item">
+                        <img src="./images/services_card_1.svg" alt="">
+                        <span>Выезд специалиста с образцами. Замер бесплатно!</span>
+                    </li>
+                    <li class="our_services__line"></li>
+                    <li class="d-flex align-items-center our_services__item">
+                        <img src="./images/services_card_2.svg" alt="">
+                        <span>Бесплатная разработка дизайн-макета</span>
+                    </li>
+                </ul>
+                <!-- Our services end -->
+
+                <!-- Our skills -->
+                <div class="our_skill">
+                    <div class="our_skill__title">Мы осуществляем производство наружной рекламы полного цикла:</div>
+                    <ul class="d-flex flex-column our_skill__list">
+                        <li class="our_skill__list_item">
+                            <div class="our_skill__list_item__title">Проектирование</div>
+                            <p>Разрабатаем дизайн с нуля, адаптируем эскизы заказчика, оптимизируем типовые конструкции. <a href="#">Проект от и до!</a></p>
+                        </li>
+                        <li class="our_skill__list_item">
+                            <div class="our_skill__list_item__title">Согласование</div>
+                            <p>Мы работаем в соответствии с требованиями <a href="#">902 ПП и дополнениям к нему</a>, наши специалисты предоставляют консультации по вопросам согласования вывесок в Москомархитектуре.</p>
+                        </li>
+                        <li class="our_skill__list_item">
+                            <div class="our_skill__list_item__title">Техническое описание</div>
+                            <p>Для установки вывесок в торговых центрах администрация (ТЦ) часто требуют техническое описание, где указано из чего изготовлена вывеска, её размеры, особенности крепления, изготовления.</p>
+                        </li>
+                        <li class="our_skill__list_item">
+                            <div class="our_skill__list_item__title">Создание</div>
+                            <p>Мы гарантируем быстрое, качественное изготовление вывесок, наружной рекламы, интерьерных конструкций. Каждый клиент получает лучший результат, учитывающий его потребности, финансовые возможности, специфику бизнеса.</p>
+                        </li>
+                        <li class="our_skill__list_item">
+                            <div class="our_skill__list_item__title">Монтаж</div>
+                            <p>Установку осуществляют специалисты нашей компании. Они используют современный инструмент и крепёж высочайшего качества, позволяющий надежно зафиксировать конструкции любого уровня сложности и размера.</p>
+                        </li>
+                    </ul>
+                    <div class="d-flex flex-column align-items-center our_skill__card">
+                        <p class="text-center">Наши специалисты помогут подобрать оптимальное решение для Вашего бизнеса. Закажите бесплатную консультацию!</p>
+                        <button>Заказать</button>
+                    </div>
+                </div>
+                <!-- Our skills end -->
+
+            </div>
+
+            <div class="main_block__right">
+                <ul class="d-flex align-items-center breadcrubms">
+                    <li>
+                        <a href="/">Главная</a>
+                    </li>
+                    <li>
+                        <span>/</span>
+                    </li>
+                    <li>
+                        <span>Объемные буквы</span>
+                    </li>
+                </ul>
+
+                <!-- Letters -->
+                <div class="main_title">Объемные буквы</div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item border-0 letters__accordion">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button rounded-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Подбор по параметрам
+                                <span class="icon"></span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse hide" data-bs-parent="#accordionExample">
+                            <div class="accordion-body p-0">
+                                <ul class="d-flex flex-column">
+                                    <li>
+                                        <span>Тип:</span>
+                                        <a href="#">Световые</a>
+                                        <a href="#">Несветовые</a>
+                                    </li>
+                                    <li>
+                                        <span>Материал:</span>
+                                        <a href="#">Акрил</a>
+                                        <a href="#">Дерево</a>
+                                        <a href="#">Композитные</a>
+                                        <a href="#">Оргстекло</a>
+                                        <a href="#">ПВХ</a>
+                                        <a href="#">Нержавейка</a>
+                                        <a href="#">Металл</a>
+                                    </li>
+                                    <li>
+                                        <span>Тип подсветки:</span>
+                                        <a href="#">Боковая</a>
+                                        <a href="#">Лицевая</a>
+                                        <a href="#">Неоновые</a>
+                                        <a href="#">Внутренняя</a>
+                                        <a href="#">Контражурная</a>
+                                        <a href="#">Светодиодные</a>
+                                        <a href="#">С лампочками</a>
+                                    </li>
+                                    <li>
+                                        <span>Место применения:</span>
+                                        <a href="#">Офис</a>
+                                        <a href="#">Магазин</a>
+                                        <a href="#">Кафе</a>
+                                        <a href="#">Продукты</a>
+                                        <a href="#">Парикмахерская</a>
+                                        <a href="#">Салон красоты</a>
+                                    </li>
+                                    <li>
+                                        <span>Цвет:</span>
+                                        <a href="#">Белый</a>
+                                        <a href="#">Желтый</a>
+                                        <a href="#">Зеркальный</a>
+                                        <a href="#">Красный</a>
+                                        <a href="#">Прозрачный</a>
+                                        <a href="#">Синий</a>
+                                        <a href="#">Хром</a>
+                                        <a href="#">Цветные</a>
+                                    </li>
+                                    <li>
+                                        <span>Способ монтажа:</span>
+                                        <a href="#">На здание</a>
+                                        <a href="#">На крышу</a>
+                                        <a href="#">На стену</a>
+                                        <a href="#">На фасад</a>
+                                        <a href="#">Напольные</a>
+                                    </li>
+                                    <li>
+                                        <span>Вид:</span>
+                                        <a href="#">Интерьерные</a>
+                                        <a href="#">Плоские</a>
+                                        <a href="#">Уличные</a>
+                                    </li>
+                                    <li>
+                                        <span>Услуги:</span>
+                                        <a href="#">Монтаж</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="letters">
+                    <p class="main_description">Объемные буквы один из наиболее эффективных видов наружной рекламы. Такие вывески обладают рядом преимуществ:</p>
+                    <ul>
+                        <li class="main_description">Привлекают внимание. Чтобы потенциальные клиенты получили возможность лучше идентифицировать объект, можно использовать оригинальные шрифты или логотип компании.</li>
+                        <li class="main_description">Хорошо видны в любое время суток (независимо от погодных условий). Это особенно актуально для заведений, которые работают до позднего вечера или круглосуточно. Объемные буквы с подсветкой можно увидеть с большого расстояния.</li>
+                        <li class="main_description">Универсальность. Готовые конструкции позиционируют внутри и снаружи помещений. В первом случае они становятся элементом дизайна интерьера. Это делает их востребованными магазинами, барами, клубами.</li>
+                    </ul>
+                    <p class="main_description">У нас можно заказать объемные буквы любой сложности. Они в полной мере отразят все ваши пожелания.</p>
+                </div>
+                <!-- Letters end -->
+
+                <!-- Making letters -->
+                <div class="making_latter">
+                    <div class="main_title">Изготовление объемных букв</div>
+                    <p class="main_description">Мы предлагаем широкий выбор объемных букв, что значительно облегчает поиск оптимального решения:</p>
+                    <ul class="d-flex flex-wrap making_latter__list">
+                        <li class="making_latter__list_item">
+                            <img src="./images/make_letter_card_1.jpg" alt="">
+                            <h3>С торцевой подсветкой.</h3>
+                            <p>Изготавливаются преимущественно из акрилового стекла без стыков. Световые элементы находятся внутри. Вокруг каждого символа образуется светящийся контур. Такие модели способны прослужить до 5 лет в самых сложных условиях эксплуатации.</p>
+                        </li>
+                        <li class="making_latter__list_item">
+                            <img src="./images/make_letter_card_2.jpg" alt="">
+                            <h3>С внутренней подсветкой.</h3>
+                            <p>Объемные световые буквы состоят из лицевой части из акрилового стекла и торцов из непрозрачного материала (чаще всего ABS-пластика). Светодиоды находятся внутри. Они потребляют минимум энергии, что оптимизирует эксплуатационные затраты. Средняя длительность эксплуатации составляет 5 лет.</p>
+                        </li>
+                        <li class="making_latter__list_item">
+                            <img src="./images/make_letter_card_3.jpg" alt="">
+                            <h3>С контражурной подсветкой.</h3>
+                            <p>Особая конструкция из акрила и непрозрачного пластика. Она собирается таким образом, чтобы освещались объемные световые буквы и часть фона. Получается интересный контражурный эффект, пользующийся стабильным спросом у крупных брендов.</p>
+                        </li>
+                        <li class="making_latter__list_item">
+                            <img src="./images/make_letter_card_4.jpg" alt="">
+                            <h3>Видеобуквы на светодиодах.</h3>
+                            <p>Использование светодиодных модулей позволяет формировать символы, способные динамически отображать информацию. На их поверхности можно размещать любые изображения, использовать разнообразные эффекты. Отсутствие статичности делает вывески объемные буквы еще более заметными и привлекающими внимание.</p>
+                        </li>
+                    </ul>
+                    <p class="main_description">Можно использовать широкий спектр материалов от доступного пластика до древесины, металла. Это позволяет создавать изделия с оригинальным дизайном, которые способствуют решению поставленных задач.</p>
+                    <p class="main_description">Мы работаем с качественными материалами и используем современное оборудование. Поэтому изготовление объемных букв любой сложности занимает минимум времени. Высокая квалификация задействованных специалистов позволяет реализовать любые идеи заказчика.</p>
+                </div>
+                <!-- Making letters end -->
+
+                <!-- Work example -->
+                <div class="work_example">
+                    <div class="main_title">Примеры наших работ</div>
+                    <p class="main_description">Здесь представлены объемные буквы с подсветкой, изготовленные для наших клиентов. Есть типовые модели, на основании которых можно создавать собственные конструктивные решения.</p>
+                    <ul class="d-flex flex-wrap work_example__galerea">
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_1.jpg" alt="">
+                        </li>
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_2.jpg" alt="">
+                        </li>
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_3.jpg" alt="">
+                        </li>
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_4.jpg" alt="">
+                        </li>
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_5.jpg" alt="">
+                        </li>
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_6.jpg" alt="">
+                        </li>
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_7.jpg" alt="">
+                        </li>
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_8.jpg" alt="">
+                        </li>
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_9.jpg" alt="">
+                        </li>
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_10.jpg" alt="">
+                        </li>
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_11.jpg" alt="">
+                        </li>
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_12.jpg" alt="">
+                        </li>
+                    </ul>
+                    <div class="d-flex flex-column description_wrap">
+                        <p class="main_description">Благодаря высокому профессионализму наших специалистов мы справляемся с задачами любого уровня сложности. Наш приоритет - следовать всем пожеланиям заказчика (дизайнера), чтобы его идеи были максимально отражены в качественных, долговечных и надежных объемных буквах для наружной рекламы.</p>
+                        <p class="main_description">Мы можем реализовать разные варианты крепления объемных световых букв для настенного монтажа снаружи и внутри помещений. Востребованный вариант - объемные буквы для напольной установки. Их часто используют для маркетинговых компаний, стилизации интерьеров, других дизайнерских задач.</p>
+                    </div>
+                    <div class="d-flex justify-content-between main_alert">
+                        <span>Наши специалисты помогут подобрать оптимальное решение для Вашего бизнеса.</span>
+                        <button class="btn_danger">Получить консультацию</button>
+                    </div>
+                    <ul class="d-flex flex-column work_example__list">
+                        <li class="work_example__list_item main_description title">Распространенные сферы применения:</li>
+                        <li class="work_example__list_item main_description">магазины,</li>
+                        <li class="work_example__list_item main_description">супермаркеты,</li>
+                        <li class="work_example__list_item main_description">фудкорты,</li>
+                        <li class="work_example__list_item main_description">заведения HoReCa,</li>
+                        <li class="work_example__list_item main_description">аптеки,</li>
+                        <li class="work_example__list_item main_description">СТО,</li>
+                        <li class="work_example__list_item main_description">туристические агентства,</li>
+                        <li class="work_example__list_item main_description">клубы,</li>
+                        <li class="work_example__list_item main_description">выставочные центры.</li>
+                    </ul>
+                    <p class="main_description">Среди наших клиентов есть и частные лица. Вывеска объемные буквы гармонично интегрируется в современный стиль оформления жилья.</p>
+                    <ul class="d-flex flex-wrap work_example__galerea">
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_13.jpeg" alt="">
+                        </li>
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_14.jpeg" alt="">
+                        </li>
+                        <li class="work_example__galerea_item">
+                            <img src="./images/work_galea_15.jpeg" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <!-- Work example  end-->
+            </div>
+
+        </div>
+
+    </div>
+    
+    <!-- Bootstrap JS file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- JS file -->
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1199px) {
+    .main_container {
+        max-width: 992px
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main_container {
+        max-width: 768px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main_container {
+        max-width: 576px
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .main_container {
+        max-width: 100%;
+    }
+
+    .header {
+        .main_container {
+            gap: 20px;
+        }
+
+        &__logo {
+            img {
+                height: 57px;
+            }
+        }
+    }
+}
