@@ -65,3 +65,18 @@ if (award_img.length) {
         }
     })
 }
+
+let selection_slider = new Swiper('.selection__slider .swiper', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    speed: 1000,
+    loop: true,
+    autoplay: {
+        delay: 2500,
+        pauseOnMouseEnter: true,
+    },
+    navigation: {
+        nextEl: '.selection__slider_btn__next',
+        prevEl: '.selection__slider_btn__prev',
+    }
+})
